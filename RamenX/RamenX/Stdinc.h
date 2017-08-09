@@ -1,0 +1,62 @@
+#pragma once
+
+#include "Define.h"
+#include "ApDefine.h"
+#include "System.h"
+
+#include "autoList.h"
+#include "autoQueue.h"
+#include "endlessQueue.h"
+#include "taskGroup.h"
+#include "Resource.h"
+#include "PictureGroup.h"
+
+#include "camellia.h"
+#include "Derivation.h"
+#include "Engine.h"
+#include "ExtraSettings.h"
+#include "File.h"
+#include "GraphicHandleFilter.h"
+#include "Jammer.h"
+#include "Keyboard.h"
+#include "Main.h"
+#include "mt19937.h"
+#include "Music.h"
+#include "Pad.h"
+#include "Picture.h"
+#include "ResourceCluster.h"
+#include "SaveData.h"
+#include "SoftImageFilter.h"
+#include "Sound.h"
+#include "SoundEffect.h"
+#include "Stopwatch.h"
+#include "Tools.h"
+
+// GameTools*
+#include "GTEffect.h"
+#include "GTInput.h"
+#include "GTPicture.h"
+#include "GTTools.h"
+
+// Game*
+#include "GmBestTime.h"
+#include "GmDrawPlayer.h"
+#include "GmEnemy.h"
+#include "GmHome.h"
+#include "GmMain.h"
+#include "GmPlayer.h"
+#include "GmScopeLayer.h"
+
+#include "GmEnemyGroup01.h"
+#include "GmEnemyGroup02.h"
+#include "GmEnemyGroup03.h"
+#include "GmEnemyGroup04.h"
+
+// App*
+#include "ApHome.h"
+#include "ApStageData.h"
+#include "ApStageData2.h"
+#include "ApStageData3.h"
+#include "ApStageData4.h"
+#include "ApStageDataTestCourse.h"
+#include "ApStageHome.h"

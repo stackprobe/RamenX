@@ -1,0 +1,375 @@
+===============================================================================
+
+　しろくまACT / version $version$
+　　　　　　　　　　　　　　　　　　　　　　　　　　(C) 2013 cerulean.charlotte
+
+===============================================================================
+
+
+■ソフトの概要
+
+　敵を倒しながら進んで行く横視点の2Dアクションゲームです。
+
+　フィールド上の「正方形の敵」を全て倒すと次のステージに進めます。
+　最終ステージでボスを倒せばオールクリアとなります。
+
+　全５ステージ（道中×４＋ボス×１）
+
+　★★★ゲームパッド推奨
+
+
+■注意
+
+　このソフトは、フリー画像素材・フリー音楽（効果音）素材を使用してます。
+　このソフト内で使用されている画像・音楽（効果音）を、このゲームを遊ぶ以外の用途には使用しないでください。
+
+
+■動作環境
+
+　Windows 7
+　確認していませんが Windows 8/8.1/10 でも動くかもしれません。
+
+　DirectX 9.0 以降
+　2Dゲームが快適に動作するCPU
+　Direct Graphic 対応のビデオカード
+　Direct Sound 対応のサウンドカード
+
+
+■インストール方法
+
+　アーカイブの中身をローカルディスク上の任意の場所にコピーしてください。
+
+
+■アンインストール方法
+
+　レジストリなどは一切使っていません。
+　ファイルを削除するだけでアンインストールできます。
+
+
+■起動方法
+
+　"しろくまACT.exe" を実行してください。
+
+
+■操作方法
+
+　●キーの割り当て
+
+　　カーソルキー ... プレイヤー・カーソルの移動
+　　Ｚ           ... ジャンプ／決定
+　　Ｘ           ... ダッシュ／飛翔／キャンセル
+　　Ｃ           ... 弱攻撃
+　　Ｖ           ... 強攻撃
+　　Ｂ           ... ボム
+　　スペース     ... ポーズ
+
+　　プレイ中どのタイミングでもエスケープキーを押すとゲームを終了します。
+
+　　ゲームパッド対応
+　　ゲームパッドの使用をおすすめします。
+
+
+　●攻撃
+
+　　大攻撃 ... 強攻撃ボタン
+　　中攻撃 ... 上ボタンを押しながら弱攻撃ボタン
+　　小攻撃 ... 弱攻撃ボタン
+
+
+　●その他
+
+　　ジャンプ中に方向ボタンを押しながら飛翔ボタンを押すと、飛翔できます。
+　　飛翔中に方向ボタンを押すことによって方向転換することができます。
+
+　　連続ジャンプ（空中ジャンプ）および連続飛翔が可能です。
+　　回数は画面右上のカウンタを見て確認してください。
+
+　　下ボタンを押し続けると小さくなります。（いわゆるしゃがみ状態）
+
+
+■画面の説明
+
+　●アクション画面でのステータス
+
+　　左から順に以下の情報を表示しています。
+
+　　▼ステージ番号
+　　▼プレイヤーの体力（ゼロになってからダメージを受けると死にます）
+　　▼残機数
+　　▼残ボム数
+　　▼フィールド上の倒さなければならない敵（正方形の敵）の残数、カッコ内は敵の総残数
+　　▼最後に攻撃した敵の残り体力と、初期体力
+　　▼ステージ開始からの経過時間
+　　▼秒間フレーム数（正常であれば６０前後の値になります）
+　　▼離陸後の残りジャンプ回数と飛翔回数
+
+
+■メニュー項目
+
+　●タイトルメニュー
+
+　　▼ゲームスタート
+
+　　　ステージ１から始めます。
+
+　　▼コンテニュー
+
+　　　ステージ１から今までクリアしたステージの次のステージまでの任意のステージから始めます。
+
+　　　★クリアしたステージは「しろくま」毎に保持されます。
+
+　　▼レコード
+
+　　　クリアタイムの記録を表示します。
+　　　各列の内容は左から順に以下のようになっています。
+
+　　　・ステージ
+　　　・普通にクリアしたときの最短タイム
+　　　・ボムを使用せずにクリアしたときの最短タイム
+　　　・ボムを使用せずに敵を殲滅してクリアしたときの最短タイム
+　　　・ボムを使用せずに敵を殲滅してノーダメージでクリアしたときの最短タイム
+
+　　　★ダメージを受けたあと回復アイテムで全快してもノーダメージにはなりません。
+　　　★レコードは「しろくま」毎に保持されます。
+
+　　▼設定
+
+　　　各種設定を行います。
+
+　　▼終了
+
+　　　ゲームを終了します。
+
+
+　●タイトルメニュー／設定
+
+　　▼スクリーンモード
+
+　　　フルスクリーンモードとウィンドウモードを切り替えます。
+
+　　▼ウィンドウのサイズ
+
+　　　ウィンドウの拡大率を指定して、ウィンドウモード時のウィンドウサイズを設定します。
+　　　ただし環境によっては倍率を整数にしない限り、文字が潰れたり画像が粗くなったりするのでご注意ください。
+
+　　▼マウスカーソルの表示
+
+　　　ウィンドウ上にマウスカーソルを移動したとき、マウスカーソルを表示するかどうかを指定します。
+
+　　▼パッドのボタン設定
+
+　　　ゲームパッドのボタンと機能を指定します。
+
+　　▼ＢＧＭボリューム
+
+　　　ＢＧＭの音量を指定します。
+
+　　▼ＳＥボリューム
+
+　　　ＳＥの音量を指定します。
+
+　　▼その他の設定
+
+　　　その他の設定を行います。
+
+　　▼終了
+
+　　　タイトルメニューに戻ります。
+
+
+■攻略のヒント
+
+　滞空中は当たり判定が小さく（しろくまの胴あたりのみに）なります。
+　敵弾だらけになったら、とりあえずジャンプすれば割とかわせたりします。
+
+　ステージクリアの条件を満たしたとき画面上にアイテムがあるとステージクリアが少し遅れます。
+　タイムアタックしているときはご注意ください。
+
+　画面上方から出現する敵のうち出現するまで時間が掛かる敵がいますが、
+　「画面内に倒せる敵がいない状態」で「しゃがむ」と直ちに出現させることができます。
+
+
+■各しろくまのスペック
+
+　                  攻撃力                  滞空中の回数    体力  補足
+　                  大攻撃  中攻撃  小攻撃  ジャンプ  飛翔
+　----------------------------------------------------------------------------------------
+　イエローしろくま      1       2        2        3      3    20  攻撃ボタン連打・常に走る
+　みずいろしろくま      3       2        1        2      2    10  攻撃力高め・一瞬でしゃがめる・ジャンプ飛翔に制約
+　しろくま              2       1        1        3      3    10  デフォルト
+　レッドしろくま        1       1        1        9      9     5  忙しい人向け
+
+　★ボムの攻撃力は10です。
+
+　★初期化メニューで「簡単」を選ぶと「イエローしろくま」、「標準」を選ぶと「しろくま」が選択されます。
+
+
+■素材提供（敬称略）
+
+　●画像
+
+　　リヒト
+　　http://extramebe.blog114.fc2.com/
+
+　　ぴぽや
+	http://blog.pipoya.net/
+
+　　りょーやん。
+　　http://anystorage.blog53.fc2.com/
+
+　　sharkpp
+　　http://www.sharkpp.net/
+
+　●ＢＧＭ
+
+　　MusicMaterial
+　　http://musicmaterial.jpn.org/index.htm
+
+　　Cyber-Rainforce
+　　http://cyber-rainforce.net/
+
+　●ＳＥ
+
+　　音人
+　　http://www.yen-soft.com/ssse/
+
+　　小森平
+　　http://taira-komori.jpn.org/
+
+　　Senses Circuit
+　　http://www.senses-circuit.com/
+
+　　効果音g
+　　http://sfx-g.net/index.html
+
+
+■取り扱い種別
+
+　フリーソフト
+
+
+■製作者
+
+　cerulean.charlotte
+
+　Site: http://cerulean.fam.cx/
+　Mail: cerulean.charlotte@gmail.com
+
+
+■ライセンス表記
+
+==== DxLib ====
+
+DX Library Copyright (C) 2001-2014 Takumi Yamada.
+
+- - -
+
+libjpeg　Copyright (C) 1991-2013, Thomas G. Lane, Guido Vollbeding.
+
+- - -
+
+libpng　Copyright (C) 2004, 2006-2012 Glenn Randers-Pehrson.
+zlib　Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler.
+
+- - -
+
+libtiff　Copyright (c) 1988-1997 Sam Leffler
+libtiff　Copyright (c) 1991-1997 Silicon Graphics, Inc.
+
+- - -
+
+Copyright (C) 2002-2009 Xiph.org Foundation
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+- Neither the name of the Xiph.org Foundation nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+==== Camellia ====
+
+Copyright (c) 2006,2007
+NTT (Nippon Telegraph and Telephone Corporation) . All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer as
+  the first lines of this file unmodified.
+2. Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY NTT ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL NTT BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+==== MT19937 ====
+
+A C-program for MT19937, with initialization improved 2002/1/26.
+Coded by Takuji Nishimura and Makoto Matsumoto.
+
+Before using, initialize the state by using init_genrand(seed)
+or init_by_array(init_key, key_length).
+
+Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+
+  3. The names of its contributors may not be used to endorse or promote
+     products derived from this software without specific prior written
+     permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+

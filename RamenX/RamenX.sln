@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RamenX", "RamenX\RamenX.vcproj", "{D6AC4E88-EAA1-4E72-9AAE-F29D49166CB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6AC4E88-EAA1-4E72-9AAE-F29D49166CB5}.Release|Win32.ActiveCfg = Release|Win32
+		{D6AC4E88-EAA1-4E72-9AAE-F29D49166CB5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+Resource\Free\MusicMaterial\rpg_opening_fc01.mp3
+Resource\Free\MusicMaterial\damage_impact.mp3
+Resource\Free\MusicMaterial\excited2.mp3
+Resource\Free\MusicMaterial\glacier.mp3
+Resource\Free\MusicMaterial\the_awaking.mp3
+C:\Dat\muon.wav
+C:\Dat\muon.wav
+Resource\Free\3104\cyrf_the_morning_glow_no-muon.mp3
+Resource\Free\MusicMaterial\piano_seinaruyoru.mp3
+C:\Dat\muon.wav
+Resource\Free\MusicMaterial\piano1wakale.mp3
+C:\Dat\muon.wav
+C:\Dat\muon.wav
