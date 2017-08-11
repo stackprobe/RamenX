@@ -1,8 +1,8 @@
-�f�ޒ񋟌�
+素材提供元
 ==========
 
-�񋟎ҁi�h�̗��j
-���X��
+提供者（敬称略）
+小森平
 
 URL
 http://taira-komori.jpn.org/game01.html

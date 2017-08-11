@@ -1,8 +1,8 @@
-�f�ޒ񋟌�
+素材提供元
 ==========
 
-�񋟎ҁi�h�̗��j
-���ʉ�g
+提供者（敬称略）
+効果音g
 
 URL
 http://sfx-g.net/index.html

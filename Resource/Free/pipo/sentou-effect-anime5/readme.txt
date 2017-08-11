@@ -1,35 +1,35 @@
-�퓬�p�G�t�F�N�g�A�j���[�V�����摜�ɂȂ�܂��B
+戦闘用エフェクトアニメーション画像になります。
 
-���^���e�͈ȉ��̂Ƃ���ł��B
-�@pipo-btleffect051.png�@�V���v����(��)�@�p�^�[�����F10�@���w�i(���Z�Ŏg�p)
-�@pipo-btleffect052.png�@�V���v����(�s���N)�@�p�^�[�����F10�@���w�i(���Z�Ŏg�p)
-�@pipo-btleffect053.png�@�V���v����(��)�@�p�^�[�����F10�@���w�i(���Z�Ŏg�p)
-�@pipo-btleffect054.png�@�V���v����(��)�@�p�^�[�����F10�@���w�i(���Z�Ŏg�p)
-�@pipo-btleffect055.png�@�V���v����(��)�@�p�^�[�����F10�@���w�i(���Z�Ŏg�p)
-�@pipo-btleffect056.png�@�V���v����(��)�@�p�^�[�����F10�@���w�i(���Z�Ŏg�p)
+収録内容は以下のとおりです。
+　pipo-btleffect051.png　シンプル光(白)　パターン数：10　黒背景(加算で使用)
+　pipo-btleffect052.png　シンプル光(ピンク)　パターン数：10　黒背景(加算で使用)
+　pipo-btleffect053.png　シンプル光(青)　パターン数：10　黒背景(加算で使用)
+　pipo-btleffect054.png　シンプル光(緑)　パターン数：10　黒背景(加算で使用)
+　pipo-btleffect055.png　シンプル光(黄)　パターン数：10　黒背景(加算で使用)
+　pipo-btleffect056.png　シンプル光(紫)　パターン数：10　黒背景(加算で使用)
 
-��6�Z�b�g�ɂȂ�܂��B
-320�~240��ʗp�̂P�R�}120�~120�T�C�Y�A
-640�~480��ʗp�̂P�R�}240�~240�T�C�Y������܂��B
+の6セットになります。
+320×240画面用の１コマ120×120サイズ、
+640×480画面用の１コマ240×240サイズがあります。
 
-�t�@�C���T�C�Y���傫�߂Ȃ̂ŁA640�~480��ʂŎg�p����
-�ꍇ�ł�320�~240��ʗp�̂��̂�200���Ɋg�債�Ďg�p���Ă�
-������������܂���B
+ファイルサイズが大きめなので、640×480画面で使用する
+場合でも320×240画面用のものを200％に拡大して使用しても
+いいかもしれません。
 
-�E�f�B�^�Ŏg�p����ꍇ�̎Q�l�ɃA�j���[�V�����ݒ��
-�f�[�^�x�[�X�t�@�C�����������Ă����܂��B
-�f�[�^�x�[�X�̋󂫃X�y�[�X�ɓǂݍ���ŁA�{�����Ă݂�
-���������B
-�@�E�f�B�^�A�j���[�V�����ݒ�.dbtype
-�����̑f�ރZ�b�g�ɂȂ����J�ς݂̃G�t�F�N�g�A�j���̐ݒ���܂܂�Ă��܂��B
+ウディタで使用する場合の参考にアニメーション設定の
+データベースファイルも同梱しておきます。
+データベースの空きスペースに読み込んで、閲覧してみて
+ください。
+　ウディタアニメーション設定.dbtype
+※この素材セットにない公開済みのエフェクトアニメの設定も含まれています。
 
 
-�����p����
-�u�c���E��c����킸�̗��pOK�v
-�u���HOK�v
-�u�񎟔z�zOK�i�������f�ނ��̂��̂̏��p�̔��͋֎~�j�v
-�u�X�^�b�t���[���Ȃǂւ̖��O�̋L�q�E�g�p�A���s�v�v
-�u�E�f�B�^�ȊO�̃c�[���ł̎g�p���\�v
+●利用条件
+「営利・非営利問わずの利用OK」
+「加工OK」
+「二次配布OK（ただし素材そのものの商用販売は禁止）」
+「スタッフロールなどへの名前の記述・使用連絡不要」
+「ウディタ以外のツールでの使用も可能」
 
-�҂ۂ�
+ぴぽや
  http://piposozai.blog76.fc2.com

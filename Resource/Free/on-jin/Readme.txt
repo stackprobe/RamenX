@@ -1,11 +1,11 @@
-‘fŞ’ñ‹ŸŒ³
+ç´ ææä¾›å…ƒ
 ==========
 
-’ñ‹ŸÒiŒhÌ—ªj
-‰¹l
+æä¾›è€…ï¼ˆæ•¬ç§°ç•¥ï¼‰
+éŸ³äºº
 
 URL
 http://www.yen-soft.com/ssse/
 
-—˜—p‹K–ñ
+åˆ©ç”¨è¦ç´„
 http://www.yen-soft.com/ssse/kiyaku.php

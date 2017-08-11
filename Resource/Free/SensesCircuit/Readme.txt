@@ -1,11 +1,11 @@
-‘fŞ’ñ‹ŸŒ³
+ç´ ææä¾›å…ƒ
 ==========
 
-’ñ‹ŸÒiŒhÌ—ªj
+æä¾›è€…ï¼ˆæ•¬ç§°ç•¥ï¼‰
 Senses Circuit
 
 URL
 http://www.senses-circuit.com/
 
-—˜—p‹K–ñ
+åˆ©ç”¨è¦ç´„
 http://www.senses-circuit.com/material/rule_normal.html

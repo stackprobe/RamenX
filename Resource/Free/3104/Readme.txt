@@ -1,7 +1,7 @@
-�f�ޒ񋟌�
+素材提供元
 ==========
 
-�񋟎ҁi�h�̗��j
+提供者（敬称略）
 Cyber-Rainforce
 
 URL
