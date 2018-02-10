@@ -56,6 +56,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	SetGraphMode(800, 600, 32);
 	ChangeWindowMode(Sd.FullScreenMode ? 0 : 1); // 0: 全画面, 1: 窓
 
+	SetWindowIconID(333); // ウィンドウ左上のアイコン
+
 	if(DxLib_Init())
 	{
 		return 1;

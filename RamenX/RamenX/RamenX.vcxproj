@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6AC4E88-EAA1-4E72-9AAE-F29D49166CB5}</ProjectGuid>
+    <RootNamespace>RamenX</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Dat\DxLib\3_19\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AdditionalOptions> /J</AdditionalOptions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Stdinc.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Dat\DxLib\3_19\プロジェクトに追加すべきファイル_VC用;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ApHome.cpp" />
+    <ClCompile Include="ApStageData.cpp" />
+    <ClCompile Include="ApStageData2.cpp" />
+    <ClCompile Include="ApStageData3.cpp" />
+    <ClCompile Include="ApStageData4.cpp" />
+    <ClCompile Include="ApStageDataTestCourse.cpp" />
+    <ClCompile Include="ApStageHome.cpp" />
+    <ClCompile Include="camellia.cpp" />
+    <ClCompile Include="Derivation.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="ExtraSettings.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="GmBestTime.cpp" />
+    <ClCompile Include="GmDrawPlayer.cpp" />
+    <ClCompile Include="GmEnemy.cpp" />
+    <ClCompile Include="GmEnemyGroup01.cpp" />
+    <ClCompile Include="GmEnemyGroup02.cpp" />
+    <ClCompile Include="GmEnemyGroup03.cpp" />
+    <ClCompile Include="GmEnemyGroup04.cpp" />
+    <ClCompile Include="GmHome.cpp" />
+    <ClCompile Include="GmMain.cpp" />
+    <ClCompile Include="GmPlayer.cpp" />
+    <ClCompile Include="GmScopeLayer.cpp" />
+    <ClCompile Include="GraphicHandleFilter.cpp" />
+    <ClCompile Include="GTEffect.cpp" />
+    <ClCompile Include="GTInput.cpp" />
+    <ClCompile Include="GTPicture.cpp" />
+    <ClCompile Include="GTTools.cpp" />
+    <ClCompile Include="Jammer.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="mt19937.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="Pad.cpp" />
+    <ClCompile Include="Picture.cpp" />
+    <ClCompile Include="PictureGroup.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="ResourceCluster.cpp" />
+    <ClCompile Include="SaveData.cpp" />
+    <ClCompile Include="SoftImageFilter.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundEffect.cpp" />
+    <ClCompile Include="Stdinc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Stopwatch.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="taskGroup.cpp" />
+    <ClCompile Include="Tools.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApDefine.h" />
+    <ClInclude Include="ApHome.h" />
+    <ClInclude Include="ApStageData.h" />
+    <ClInclude Include="ApStageData2.h" />
+    <ClInclude Include="ApStageData3.h" />
+    <ClInclude Include="ApStageData4.h" />
+    <ClInclude Include="ApStageDataTestCourse.h" />
+    <ClInclude Include="ApStageHome.h" />
+    <ClInclude Include="autoList.h" />
+    <ClInclude Include="autoQueue.h" />
+    <ClInclude Include="camellia.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Derivation.h" />
+    <ClInclude Include="endlessQueue.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="ExtraSettings.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="GmBestTime.h" />
+    <ClInclude Include="GmDrawPlayer.h" />
+    <ClInclude Include="GmEnemy.h" />
+    <ClInclude Include="GmEnemyGroup01.h" />
+    <ClInclude Include="GmEnemyGroup02.h" />
+    <ClInclude Include="GmEnemyGroup03.h" />
+    <ClInclude Include="GmEnemyGroup04.h" />
+    <ClInclude Include="GmHome.h" />
+    <ClInclude Include="GmMain.h" />
+    <ClInclude Include="GmPlayer.h" />
+    <ClInclude Include="GmScopeLayer.h" />
+    <ClInclude Include="GraphicHandleFilter.h" />
+    <ClInclude Include="GTEffect.h" />
+    <ClInclude Include="GTInput.h" />
+    <ClInclude Include="GTPicture.h" />
+    <ClInclude Include="GTTools.h" />
+    <ClInclude Include="Jammer.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="mt19937.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Pad.h" />
+    <ClInclude Include="Picture.h" />
+    <ClInclude Include="PictureGroup.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceCluster.h" />
+    <ClInclude Include="SaveData.h" />
+    <ClInclude Include="SoftImageFilter.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundEffect.h" />
+    <ClInclude Include="Stdinc.h" />
+    <ClInclude Include="Stopwatch.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="taskGroup.h" />
+    <ClInclude Include="Tools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
