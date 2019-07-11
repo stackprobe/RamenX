@@ -1,262 +1,262 @@
 ===============================================================================
 
-�@���낭��ACT / version $version$
-�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@(C) 2013 cerulean.charlotte
+　しろくまACT / version $version$
+　　　　　　　　　　　　　　　　　　　　　　　　　　(C) 2013 cerulean.charlotte
 
 ===============================================================================
 
 
-���\�t�g�̊T�v
+■ソフトの概要
 
-�@�G��|���Ȃ���i��ōs�������_��2D�A�N�V�����Q�[���ł��B
+　敵を倒しながら進んで行く横視点の2Dアクションゲームです。
 
-�@�t�B�[���h��́u�����`�̓G�v��S�ē|���Ǝ��̃X�e�[�W�ɐi�߂܂��B
-�@�ŏI�X�e�[�W�Ń{�X��|���΃I�[���N���A�ƂȂ�܂��B
+　フィールド上の「正方形の敵」を全て倒すと次のステージに進めます。
+　最終ステージでボスを倒せばオールクリアとなります。
 
-�@�S�T�X�e�[�W�i�����~�S�{�{�X�~�P�j
+　全５ステージ（道中×４＋ボス×１）
 
-�@�������Q�[���p�b�h����
+　★★★ゲームパッド推奨
 
 
-������
+■注意
 
-�@���̃\�t�g�́A�t���[�摜�f�ށE�t���[���y�i���ʉ��j�f�ނ��g�p���Ă܂��B
-�@���̃\�t�g���Ŏg�p����Ă���摜�E���y�i���ʉ��j���A���̃Q�[����V�ԈȊO�̗p�r�ɂ͎g�p���Ȃ��ł��������B
+　このソフトは、フリー画像素材・フリー音楽（効果音）素材を使用してます。
+　このソフト内で使用されている画像・音楽（効果音）を、このゲームを遊ぶ以外の用途には使用しないでください。
 
 
-�������
+■動作環境
 
-�@Windows 10
-�@�m�F���Ă��܂��� Windows 7/8/8.1 �ł�������������܂���B
+　Windows 10
+　確認していませんが Windows 7/8/8.1 でも動くかもしれません。
 
-�@DirectX 9.0 �ȍ~
-�@2D�Q�[�������K�ɓ��삷��CPU
-�@Direct Graphic �Ή��̃r�f�I�J�[�h
-�@Direct Sound �Ή��̃T�E���h�J�[�h
+　DirectX 9.0 以降
+　2Dゲームが快適に動作するCPU
+　Direct Graphic 対応のビデオカード
+　Direct Sound 対応のサウンドカード
 
 
-���C���X�g�[�����@
+■インストール方法
 
-�@�A�[�J�C�u�̒��g�����[�J���f�B�X�N��̔C�ӂ̏ꏊ�ɃR�s�[���Ă��������B
+　アーカイブの中身をローカルディスク上の任意の場所にコピーしてください。
 
 
-���A���C���X�g�[�����@
+■アンインストール方法
 
-�@���W�X�g���Ȃǂ͈�؎g���Ă��܂���B
-�@�t�@�C�����폜���邾���ŃA���C���X�g�[���ł��܂��B
+　レジストリなどは一切使っていません。
+　ファイルを削除するだけでアンインストールできます。
 
 
-���N�����@
+■起動方法
 
-�@"���낭��ACT.exe" �����s���Ă��������B
+　"しろくまACT.exe" を実行してください。
 
 
-��������@
+■操作方法
 
-�@���L�[�̊��蓖��
+　●キーの割り当て
 
-�@�@�J�[�\���L�[ ... �v���C���[�E�J�[�\���̈ړ�
-�@�@�y           ... �W�����v�^����
-�@�@�w           ... �_�b�V���^���ā^�L�����Z��
-�@�@�b           ... ��U��
-�@�@�u           ... ���U��
-�@�@�a           ... �{��
-�@�@�X�y�[�X     ... �|�[�Y
+　　カーソルキー ... プレイヤー・カーソルの移動
+　　Ｚ           ... ジャンプ／決定
+　　Ｘ           ... ダッシュ／飛翔／キャンセル
+　　Ｃ           ... 弱攻撃
+　　Ｖ           ... 強攻撃
+　　Ｂ           ... ボム
+　　スペース     ... ポーズ
 
-�@�@�v���C���ǂ̃^�C�~���O�ł��G�X�P�[�v�L�[�������ƃQ�[�����I�����܂��B
+　　プレイ中どのタイミングでもエスケープキーを押すとゲームを終了します。
 
-�@�@�Q�[���p�b�h�Ή�
-�@�@�Q�[���p�b�h�̎g�p���������߂��܂��B
+　　ゲームパッド対応
+　　ゲームパッドの使用をおすすめします。
 
 
-�@���U��
+　●攻撃
 
-�@�@��U�� ... ���U���{�^��
-�@�@���U�� ... ��{�^���������Ȃ����U���{�^��
-�@�@���U�� ... ��U���{�^��
+　　大攻撃 ... 強攻撃ボタン
+　　中攻撃 ... 上ボタンを押しながら弱攻撃ボタン
+　　小攻撃 ... 弱攻撃ボタン
 
 
-�@�����̑�
+　●その他
 
-�@�@�W�����v���ɕ����{�^���������Ȃ�����ă{�^���������ƁA���Ăł��܂��B
-�@�@���Ē��ɕ����{�^�����������Ƃɂ���ĕ����]�����邱�Ƃ��ł��܂��B
+　　ジャンプ中に方向ボタンを押しながら飛翔ボタンを押すと、飛翔できます。
+　　飛翔中に方向ボタンを押すことによって方向転換することができます。
 
-�@�@�A���W�����v�i�󒆃W�����v�j����јA�����Ă��\�ł��B
-�@�@�񐔂͉�ʉE��̃J�E���^�����Ċm�F���Ă��������B
+　　連続ジャンプ（空中ジャンプ）および連続飛翔が可能です。
+　　回数は画面右上のカウンタを見て確認してください。
 
-�@�@���{�^��������������Ə������Ȃ�܂��B�i�����邵�Ⴊ�ݏ�ԁj
+　　下ボタンを押し続けると小さくなります。（いわゆるしゃがみ状態）
 
 
-����ʂ̐���
+■画面の説明
 
-�@���A�N�V������ʂł̃X�e�[�^�X
+　●アクション画面でのステータス
 
-�@�@�����珇�Ɉȉ��̏���\�����Ă��܂��B
+　　左から順に以下の情報を表示しています。
 
-�@�@���X�e�[�W�ԍ�
-�@�@���v���C���[�̗̑́i�[���ɂȂ��Ă���_���[�W���󂯂�Ǝ��ɂ܂��j
-�@�@���c�@��
-�@�@���c�{����
-�@�@���t�B�[���h��̓|���Ȃ���΂Ȃ�Ȃ��G�i�����`�̓G�j�̎c���A�J�b�R���͓G�̑��c��
-�@�@���Ō�ɍU�������G�̎c��̗͂ƁA�����̗�
-�@�@���X�e�[�W�J�n����̌o�ߎ���
-�@�@���b�ԃt���[�����i����ł���΂U�O�O��̒l�ɂȂ�܂��j
-�@�@��������̎c��W�����v�񐔂Ɣ��ĉ�
+　　▼ステージ番号
+　　▼プレイヤーの体力（ゼロになってからダメージを受けると死にます）
+　　▼残機数
+　　▼残ボム数
+　　▼フィールド上の倒さなければならない敵（正方形の敵）の残数、カッコ内は敵の総残数
+　　▼最後に攻撃した敵の残り体力と、初期体力
+　　▼ステージ開始からの経過時間
+　　▼秒間フレーム数（正常であれば６０前後の値になります）
+　　▼離陸後の残りジャンプ回数と飛翔回数
 
 
-�����j���[����
+■メニュー項目
 
-�@���^�C�g�����j���[
+　●タイトルメニュー
 
-�@�@���Q�[���X�^�[�g
+　　▼ゲームスタート
 
-�@�@�@�X�e�[�W�P����n�߂܂��B
+　　　ステージ１から始めます。
 
-�@�@���R���e�j���[
+　　▼コンテニュー
 
-�@�@�@�X�e�[�W�P���獡�܂ŃN���A�����X�e�[�W�̎��̃X�e�[�W�܂ł̔C�ӂ̃X�e�[�W����n�߂܂��B
+　　　ステージ１から今までクリアしたステージの次のステージまでの任意のステージから始めます。
 
-�@�@�@���N���A�����X�e�[�W�́u���낭�܁v���ɕێ�����܂��B
+　　　★クリアしたステージは「しろくま」毎に保持されます。
 
-�@�@�����R�[�h
+　　▼レコード
 
-�@�@�@�N���A�^�C���̋L�^��\�����܂��B
-�@�@�@�e��̓��e�͍����珇�Ɉȉ��̂悤�ɂȂ��Ă��܂��B
+　　　クリアタイムの記録を表示します。
+　　　各列の内容は左から順に以下のようになっています。
 
-�@�@�@�E�X�e�[�W
-�@�@�@�E���ʂɃN���A�����Ƃ��̍ŒZ�^�C��
-�@�@�@�E�{�����g�p�����ɃN���A�����Ƃ��̍ŒZ�^�C��
-�@�@�@�E�{�����g�p�����ɓG��r�ł��ăN���A�����Ƃ��̍ŒZ�^�C��
-�@�@�@�E�{�����g�p�����ɓG��r�ł��ăm�[�_���[�W�ŃN���A�����Ƃ��̍ŒZ�^�C��
+　　　・ステージ
+　　　・普通にクリアしたときの最短タイム
+　　　・ボムを使用せずにクリアしたときの最短タイム
+　　　・ボムを使用せずに敵を殲滅してクリアしたときの最短タイム
+　　　・ボムを使用せずに敵を殲滅してノーダメージでクリアしたときの最短タイム
 
-�@�@�@���_���[�W���󂯂����Ɖ񕜃A�C�e���őS�����Ă��m�[�_���[�W�ɂ͂Ȃ�܂���B
-�@�@�@�����R�[�h�́u���낭�܁v���ɕێ�����܂��B
+　　　★ダメージを受けたあと回復アイテムで全快してもノーダメージにはなりません。
+　　　★レコードは「しろくま」毎に保持されます。
 
-�@�@���ݒ�
+　　▼設定
 
-�@�@�@�e��ݒ���s���܂��B
+　　　各種設定を行います。
 
-�@�@���I��
+　　▼終了
 
-�@�@�@�Q�[�����I�����܂��B
+　　　ゲームを終了します。
 
 
-�@���^�C�g�����j���[�^�ݒ�
+　●タイトルメニュー／設定
 
-�@�@���X�N���[�����[�h
+　　▼スクリーンモード
 
-�@�@�@�t���X�N���[�����[�h�ƃE�B���h�E���[�h��؂�ւ��܂��B
+　　　フルスクリーンモードとウィンドウモードを切り替えます。
 
-�@�@���E�B���h�E�̃T�C�Y
+　　▼ウィンドウのサイズ
 
-�@�@�@�E�B���h�E�̊g�嗦���w�肵�āA�E�B���h�E���[�h���̃E�B���h�E�T�C�Y��ݒ肵�܂��B
-�@�@�@���������ɂ���Ă͔{���𐮐��ɂ��Ȃ�����A�������ׂꂽ��摜���e���Ȃ����肷��̂ł����ӂ��������B
+　　　ウィンドウの拡大率を指定して、ウィンドウモード時のウィンドウサイズを設定します。
+　　　ただし環境によっては倍率を整数にしない限り、文字が潰れたり画像が粗くなったりするのでご注意ください。
 
-�@�@���}�E�X�J�[�\���̕\��
+　　▼マウスカーソルの表示
 
-�@�@�@�E�B���h�E��Ƀ}�E�X�J�[�\�����ړ������Ƃ��A�}�E�X�J�[�\����\�����邩�ǂ������w�肵�܂��B
+　　　ウィンドウ上にマウスカーソルを移動したとき、マウスカーソルを表示するかどうかを指定します。
 
-�@�@���p�b�h�̃{�^���ݒ�
+　　▼パッドのボタン設定
 
-�@�@�@�Q�[���p�b�h�̃{�^���Ƌ@�\���w�肵�܂��B
+　　　ゲームパッドのボタンと機能を指定します。
 
-�@�@���a�f�l�{�����[��
+　　▼ＢＧＭボリューム
 
-�@�@�@�a�f�l�̉��ʂ��w�肵�܂��B
+　　　ＢＧＭの音量を指定します。
 
-�@�@���r�d�{�����[��
+　　▼ＳＥボリューム
 
-�@�@�@�r�d�̉��ʂ��w�肵�܂��B
+　　　ＳＥの音量を指定します。
 
-�@�@�����̑��̐ݒ�
+　　▼その他の設定
 
-�@�@�@���̑��̐ݒ���s���܂��B
+　　　その他の設定を行います。
 
-�@�@���I��
+　　▼終了
 
-�@�@�@�^�C�g�����j���[�ɖ߂�܂��B
+　　　タイトルメニューに戻ります。
 
 
-���U���̃q���g
+■攻略のヒント
 
-�@�؋󒆂͓����蔻�肪�������i���낭�܂̓�������݂̂Ɂj�Ȃ�܂��B
-�@�G�e���炯�ɂȂ�����A�Ƃ肠�����W�����v����Ί��Ƃ��킹���肵�܂��B
+　滞空中は当たり判定が小さく（しろくまの胴あたりのみに）なります。
+　敵弾だらけになったら、とりあえずジャンプすれば割とかわせたりします。
 
-�@�X�e�[�W�N���A�̏����𖞂������Ƃ���ʏ�ɃA�C�e��������ƃX�e�[�W�N���A�������x��܂��B
-�@�^�C���A�^�b�N���Ă���Ƃ��͂����ӂ��������B
+　ステージクリアの条件を満たしたとき画面上にアイテムがあるとステージクリアが少し遅れます。
+　タイムアタックしているときはご注意ください。
 
-�@��ʏ������o������G�̂����o������܂Ŏ��Ԃ��|����G�����܂����A
-�@�u��ʓ��ɓ|����G�����Ȃ���ԁv�Łu���Ⴊ�ށv�ƒ����ɏo�������邱�Ƃ��ł��܂��B
+　画面上方から出現する敵のうち出現するまで時間が掛かる敵がいますが、
+　「画面内に倒せる敵がいない状態」で「しゃがむ」と直ちに出現させることができます。
 
 
-���e���낭�܂̃X�y�b�N
+■各しろくまのスペック
 
-�@                  �U����                  �؋󒆂̉�    �̗�  �⑫
-�@                  ��U��  ���U��  ���U��  �W�����v  ����
-�@----------------------------------------------------------------------------------------
-�@�C�G���[���낭��      1       2        2        3      3    20  �U���{�^���A�ŁE��ɑ���
-�@�݂����낵�낭��      3       2        1        2      2    10  �U���͍��߁E��u�ł��Ⴊ�߂�E�W�����v���Ăɐ���
-�@���낭��              2       1        1        3      3    10  �f�t�H���g
-�@���b�h���낭��        1       1        1        9      9     5  �Z�����l����
+　                  攻撃力                  滞空中の回数    体力  補足
+　                  大攻撃  中攻撃  小攻撃  ジャンプ  飛翔
+　----------------------------------------------------------------------------------------
+　イエローしろくま      1       2        2        3      3    20  攻撃ボタン連打・常に走る
+　みずいろしろくま      3       2        1        2      2    10  攻撃力高め・一瞬でしゃがめる・ジャンプ飛翔に制約
+　しろくま              2       1        1        3      3    10  デフォルト
+　レッドしろくま        1       1        1        9      9     5  忙しい人向け
 
-�@���{���̍U���͂�10�ł��B
+　★ボムの攻撃力は10です。
 
-�@�����������j���[�Łu�ȒP�v��I�ԂƁu�C�G���[���낭�܁v�A�u�W���v��I�ԂƁu���낭�܁v���I������܂��B
+　★初期化メニューで「簡単」を選ぶと「イエローしろくま」、「標準」を選ぶと「しろくま」が選択されます。
 
 
-���f�ޒ񋟁i�h�̗��j
+■素材提供（敬称略）
 
-�@���摜
+　●画像
 
-�@�@���q�g
-�@�@http://extramebe.blog114.fc2.com/
+　　リヒト
+　　http://extramebe.blog114.fc2.com/
 
-�@�@�҂ۂ�
+　　ぴぽや
 	http://blog.pipoya.net/
 
-�@�@���[���B
-�@�@http://anystorage.blog53.fc2.com/
+　　りょーやん。
+　　http://anystorage.blog53.fc2.com/
 
-�@�@sharkpp
-�@�@http://www.sharkpp.net/
+　　sharkpp
+　　http://www.sharkpp.net/
 
-�@���a�f�l
+　●ＢＧＭ
 
-�@�@MusicMaterial
-�@�@http://musicmaterial.jpn.org/index.htm
+　　MusicMaterial
+　　http://musicmaterial.jpn.org/index.htm
 
-�@�@Cyber-Rainforce
-�@�@http://cyber-rainforce.net/
+　　Cyber-Rainforce
+　　http://cyber-rainforce.net/
 
-�@���r�d
+　●ＳＥ
 
-�@�@���l
-�@�@http://www.yen-soft.com/ssse/
+　　音人
+　　http://www.yen-soft.com/ssse/
 
-�@�@���X��
-�@�@http://taira-komori.jpn.org/
+　　小森平
+　　http://taira-komori.jpn.org/
 
-�@�@Senses Circuit
-�@�@http://www.senses-circuit.com/
+　　Senses Circuit
+　　http://www.senses-circuit.com/
 
-�@�@���ʉ�g
-�@�@http://sfx-g.net/index.html
-
-
-����舵�����
-
-�@�t���[�\�t�g
+　　効果音g
+　　http://sfx-g.net/index.html
 
 
-�������
+■取り扱い種別
 
-�@cerulean.charlotte
-
-�@Site: http://cerulean.fam.cx/
-�@Mail: cerulean.charlotte@gmail.com
+　フリーソフト
 
 
-�����C�Z���X�\�L
+■製作者
+
+　cerulean.charlotte
+
+　Site: http://cerulean.fam.cx/
+　Mail: cerulean.charlotte@gmail.com
+
+
+■ライセンス表記
 
 ==== DxLib ====
 
@@ -264,17 +264,17 @@ DX Library Copyright (C) 2001-2014 Takumi Yamada.
 
 - - -
 
-libjpeg�@Copyright (C) 1991-2013, Thomas G. Lane, Guido Vollbeding.
+libjpeg　Copyright (C) 1991-2013, Thomas G. Lane, Guido Vollbeding.
 
 - - -
 
-libpng�@Copyright (C) 2004, 2006-2012 Glenn Randers-Pehrson.
-zlib�@Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler.
+libpng　Copyright (C) 2004, 2006-2012 Glenn Randers-Pehrson.
+zlib　Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler.
 
 - - -
 
-libtiff�@Copyright (c) 1988-1997 Sam Leffler
-libtiff�@Copyright (c) 1991-1997 Silicon Graphics, Inc.
+libtiff　Copyright (c) 1988-1997 Sam Leffler
+libtiff　Copyright (c) 1991-1997 Silicon Graphics, Inc.
 
 - - -
 

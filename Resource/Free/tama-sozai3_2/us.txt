@@ -2,7 +2,7 @@
 ShotImage = ".\img\_shot3.png"
 
 
-// ŠÛ’ei¬j
+// ä¸¸å¼¾ï¼ˆå°ï¼‰
 ShotData{
 	id=1
 	rect=(0,0,20,20)
@@ -44,7 +44,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ŠÛ’ei¬E”½“]j
+// ä¸¸å¼¾ï¼ˆå°ãƒ»åè»¢ï¼‰
 ShotData{
 	id=9
 	rect=(0,20,20,40)
@@ -86,7 +86,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ŠÛ’ei¬E‰ÁZj
+// ä¸¸å¼¾ï¼ˆå°ãƒ»åŠ ç®—ï¼‰
 ShotData{
 	id=17
 	rect=(20,0,40,20)
@@ -136,7 +136,7 @@ ShotData{
 	render=ADD
 }
 
-// ŠÛ’ei’†j
+// ä¸¸å¼¾ï¼ˆä¸­ï¼‰
 ShotData{
 	id=25
 	rect=(100,0,130,30)
@@ -178,7 +178,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ŠÛ’ei’†E”½“]j
+// ä¸¸å¼¾ï¼ˆä¸­ãƒ»åè»¢ï¼‰
 ShotData{
 	id=33
 	rect=(100,30,130,60)
@@ -220,7 +220,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ŠÛ’ei’†E‰ÁZj
+// ä¸¸å¼¾ï¼ˆä¸­ãƒ»åŠ ç®—ï¼‰
 ShotData{
 	id=41
 	rect=(130,0,160,30)
@@ -270,7 +270,7 @@ ShotData{
 	render=ADD
 }
 
-// ŠÛ’ei‘åE‰ÁZê—pj
+// ä¸¸å¼¾ï¼ˆå¤§ãƒ»åŠ ç®—å°‚ç”¨ï¼‰
 ShotData{
 	id=49
 	rect=(257,0,321,64)
@@ -320,7 +320,7 @@ ShotData{
 	render=ADD
 }
 
-// ŠÛ’ei˜g•tj
+// ä¸¸å¼¾ï¼ˆæ ä»˜ï¼‰
 ShotData{
 	id=57
 	rect=(20,20,40,40)
@@ -362,7 +362,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ŠÛ’ei‹É¬j
+// ä¸¸å¼¾ï¼ˆæ¥µå°ï¼‰
 ShotData{
 	id=65
 	rect=(86,40,96,50)
@@ -404,7 +404,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// j’e
+// é‡å¼¾
 ShotData{
 	id=73
 	rect=(0,40,10,60)
@@ -446,7 +446,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ‘È‰~’ei¬j
+// æ¥•å††å¼¾ï¼ˆå°ï¼‰
 ShotData{
 	id=81
 	rect=(10,40,22,60)
@@ -488,7 +488,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ‘È‰~’ei’†j
+// æ¥•å††å¼¾ï¼ˆä¸­ï¼‰
 ShotData{
 	id=89
 	rect=(219,0,237,30)
@@ -530,7 +530,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ‘È‰~’ei’†E”½“]j
+// æ¥•å††å¼¾ï¼ˆä¸­ãƒ»åè»¢ï¼‰
 ShotData{
 	id=97
 	rect=(219,30,237,60)
@@ -572,7 +572,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// Œõüi‰ÁZê—pj
+// å…‰ç·šï¼ˆåŠ ç®—å°‚ç”¨ï¼‰
 ShotData{
 	id=105
 	rect=(46,42,66,58)
@@ -622,7 +622,7 @@ ShotData{
 	render=ADD
 }
 
-// Œõüi”½“]E‰ÁZê—pj
+// å…‰ç·šï¼ˆåè»¢ãƒ»åŠ ç®—å°‚ç”¨ï¼‰
 ShotData{
 	id=113
 	rect=(66,42,86,58)
@@ -672,7 +672,7 @@ ShotData{
 	render=ADD
 }
 
-// —Ø’e
+// é±—å¼¾
 ShotData{
 	id=121
 	rect=(60,0,80,20)
@@ -714,7 +714,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// —Ø’ei‰ÁZj
+// é±—å¼¾ï¼ˆåŠ ç®—ï¼‰
 ShotData{
 	id=129
 	rect=(80,0,100,20)
@@ -764,7 +764,7 @@ ShotData{
 	render=ADD
 }
 
-// ’±’e
+// è¶å¼¾
 ShotData{
 	id=137
 	rect=(160,0,190,30)
@@ -806,7 +806,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ’±’ei”½“]j
+// è¶å¼¾ï¼ˆåè»¢ï¼‰
 ShotData{
 	id=145
 	rect=(160,30,190,60)
@@ -848,7 +848,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// •X’e
+// æ°·å¼¾
 ShotData{
 	id=153
 	rect=(22,40,34,60)
@@ -890,7 +890,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// –îˆó’ei¬j
+// çŸ¢å°å¼¾ï¼ˆå°ï¼‰
 ShotData{
 	id=161
 	rect=(60,20,80,40)
@@ -932,7 +932,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// –îˆó’ei’†j
+// çŸ¢å°å¼¾ï¼ˆä¸­ï¼‰
 ShotData{
 	id=169
 	rect=(130,30,160,60)
@@ -974,7 +974,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ¯’ei¬j
+// æ˜Ÿå¼¾ï¼ˆå°ï¼‰
 ShotData{
 	id=177
 	rect=(40,0,60,20)
@@ -1024,7 +1024,7 @@ ShotData{
 	angular_velocity=rand(-1,-3)
 }
 
-// ¯’ei¬E”½“]j
+// æ˜Ÿå¼¾ï¼ˆå°ãƒ»åè»¢ï¼‰
 ShotData{
 	id=185
 	rect=(40,20,60,40)
@@ -1074,7 +1074,7 @@ ShotData{
 	angular_velocity=rand(-1,-3)
 }
 
-// ¯’ei’†j
+// æ˜Ÿå¼¾ï¼ˆä¸­ï¼‰
 ShotData{
 	id=193
 	rect=(190,0,220,30)
@@ -1124,7 +1124,7 @@ ShotData{
 	angular_velocity=rand(-1,-3)
 }
 
-// ¯’ei’†E”½“]j
+// æ˜Ÿå¼¾ï¼ˆä¸­ãƒ»åè»¢ï¼‰
 ShotData{
 	id=201
 	rect=(190,30,220,60)
@@ -1174,7 +1174,7 @@ ShotData{
 	angular_velocity=rand(-1,-3)
 }
 
-// ƒNƒiƒC’e
+// ã‚¯ãƒŠã‚¤å¼¾
 ShotData{
 	id=209
 	rect=(34,40,46,60)
@@ -1216,7 +1216,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ƒiƒCƒt’e
+// ãƒŠã‚¤ãƒ•å¼¾
 ShotData{
 	id=217
 	rect=(237,0,257,30)
@@ -1258,7 +1258,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ¬“’e
+// å°åˆ€å¼¾
 ShotData{
 	id=225
 	rect=(237,30,257,60)
@@ -1300,7 +1300,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ŒäD’e
+// å¾¡æœ­å¼¾
 ShotData{
 	id=233
 	rect=(80,20,96,40)
@@ -1342,7 +1342,7 @@ ShotData{
 	delay_color=(192,192,192)
 }
 
-// ‰A—z’eig”’E”’•j
+// é™°é™½å¼¾ï¼ˆç´…ç™½ãƒ»ç™½é»’ï¼‰
 ShotData{
 	id=241
 	rect=(481,0,511,30)
@@ -1356,7 +1356,7 @@ ShotData{
 	angular_velocity=rand(-1,-3)
 }
 
-// ¬‘K’ei‹àE‹âE“ºj
+// å°éŠ­å¼¾ï¼ˆé‡‘ãƒ»éŠ€ãƒ»éŠ…ï¼‰
 ShotData{
 	id=243
 	rect=(431,0,451,20)
@@ -1373,7 +1373,7 @@ ShotData{
 	delay_color=(192,128,32)
 }
 
-// “_–Å’eiÔEÂE”’E‰ÁZê—pj
+// ç‚¹æ»…å¼¾ï¼ˆèµ¤ãƒ»é’ãƒ»ç™½ãƒ»åŠ ç®—å°‚ç”¨ï¼‰
 ShotData{
 	id=246
 	AnimationData{
