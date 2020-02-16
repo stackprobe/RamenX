@@ -34,12 +34,12 @@ void *memRealloc(void *block, int size);
 void *memClone(void *block, int size);
 
 // 'New Array'
-#define na(type_t, count) \
+#define na_(type_t, count) \
 	((type_t *)memCalloc(sizeof(type_t) * (count)))
 
 // 'New Block'
-#define nb(type_t) \
-	(na(type_t, 1))
+#define nb_(type_t) \
+	(na_(type_t, 1))
 
 extern int fs_count;
 extern int fs_max;

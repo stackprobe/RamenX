@@ -185,7 +185,7 @@ void Print(char *token)
 }
 void Print_x(char *token)
 {
-	PrintInfo_t *i = nb(PrintInfo_t);
+	PrintInfo_t *i = nb_(PrintInfo_t);
 
 	i->X = P_BaseX + P_X;
 	i->Y = P_BaseY + P_Y;

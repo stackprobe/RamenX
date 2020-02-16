@@ -229,7 +229,7 @@ static void ReleaseMikoWound(Miko_t *i)
 }
 GmEnemy_t MakeMikoWound(double x, double y, GmEnemy_t (*next_maker)(double, double))
 {
-	Miko_t *ed = nb(Miko_t);
+	Miko_t *ed = nb_(Miko_t);
 
 	ed->u.Wound.NextMaker = next_maker;
 
@@ -427,7 +427,7 @@ static void ReleaseFire02(Fire02_t *i)
 }
 GmEnemy_t MakeFire02(double x, double y, double x_vec, double y_vec)
 {
-	Fire02_t *ed = nb(Fire02_t);
+	Fire02_t *ed = nb_(Fire02_t);
 
 	ed->VectX = x_vec;
 	ed->VectY = y_vec;
@@ -663,7 +663,7 @@ static void ReleaseFire03(Fire03_t *i)
 }
 GmEnemy_t MakeFire03(double x, double y, double speed_rate)
 {
-	Fire03_t *ed = nb(Fire03_t);
+	Fire03_t *ed = nb_(Fire03_t);
 
 	ed->SpeedRate = speed_rate;
 	ed->YAdd = F03_SPEED * speed_rate;
@@ -864,7 +864,7 @@ static void ReleaseFire04(Fire04_t *i)
 }
 GmEnemy_t MakeFire04(double x, double y, double x_vec, double y_vec, int color_green)
 {
-	Fire04_t *ed = nb(Fire04_t);
+	Fire04_t *ed = nb_(Fire04_t);
 
 	ed->ColorGreen = color_green;
 	ed->VectX = x_vec;
@@ -1083,7 +1083,7 @@ static void ReleaseFire05(Fire05_t *i)
 }
 GmEnemy_t MakeFire05(double x, double y, double x_dest, int rndIndex)
 {
-	Fire05_t *ed = nb(Fire05_t);
+	Fire05_t *ed = nb_(Fire05_t);
 
 	ed->DestX = x_dest;
 	ed->RndIndex = rndIndex;
@@ -1187,7 +1187,7 @@ static void ReleaseFire05Ex(Fire05Ex_t *i)
 }
 GmEnemy_t MakeFire05Ex(double x, double y, double r, double r_add, int chr_type)
 {
-	Fire05Ex_t *ed = nb(Fire05Ex_t);
+	Fire05Ex_t *ed = nb_(Fire05Ex_t);
 
 	ed->ChrType = chr_type;
 	ed->CentX = x;
@@ -1387,7 +1387,7 @@ static void ReleaseFire06(Fire06_t *i)
 }
 GmEnemy_t MakeFire06(double x, double y, double r, int pr1, int pr2)
 {
-	Fire06_t *ed = nb(Fire06_t);
+	Fire06_t *ed = nb_(Fire06_t);
 
 	ed->PicResno1 = pr1; // maybe (D_*_FIRE1 | DTP)
 	ed->PicResno2 = pr2; // maybe (D_*_FIRE4 | DTP)
@@ -1675,7 +1675,7 @@ static void ReleaseFire07(Fire07_t *i)
 }
 GmEnemy_t MakeFire07(double x, double y, double x_add, double y_add)
 {
-	Fire07_t *ed = nb(Fire07_t);
+	Fire07_t *ed = nb_(Fire07_t);
 
 	ed->XAdd = x_add;
 	ed->YAdd = y_add;

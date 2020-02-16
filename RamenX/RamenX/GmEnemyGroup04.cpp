@@ -39,7 +39,7 @@ static void ReleaseTrigger(Trigger_t *i)
 }
 GmEnemy_t MakeTrigger(double x, void (*passedEvent)(double xPos))
 {
-	Trigger_t *ed = nb(Trigger_t);
+	Trigger_t *ed = nb_(Trigger_t);
 
 	ed->PassedEvent = passedEvent;
 

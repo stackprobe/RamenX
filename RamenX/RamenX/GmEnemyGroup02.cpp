@@ -61,7 +61,7 @@ static void ReleaseDamageArea(DamageArea_t *i)
 }
 GmEnemy_t MakeDamageArea(double x, double y, double w, double h, double r, int lifeCount)
 {
-	DamageArea_t *ed = nb(DamageArea_t);
+	DamageArea_t *ed = nb_(DamageArea_t);
 
 	ed->LifeCount = lifeCount;
 	ed->W = w;
@@ -138,7 +138,7 @@ static void ReleaseD3Tama01(D3Tama01_t *i)
 }
 GmEnemy_t MakeD3Tama01(double x, double y, double x_add, double y_add, int pic_resno) // pic_resno ... maybe (D_*_STAR | DTP)
 {
-	D3Tama01_t *ed = nb(D3Tama01_t);
+	D3Tama01_t *ed = nb_(D3Tama01_t);
 
 	ed->PicResno = pic_resno;
 	ed->XAdd = x_add;
@@ -229,7 +229,7 @@ static void ReleaseMawarudonge(Mawarudonge_t *i)
 }
 GmEnemy_t MakeMawarudonge(double x, double y, double x_add, double y_add, int level)
 {
-	Mawarudonge_t *ed = nb(Mawarudonge_t);
+	Mawarudonge_t *ed = nb_(Mawarudonge_t);
 
 	ed->XAdd = x_add;
 	ed->YAdd = y_add;
@@ -337,7 +337,7 @@ static void ReleaseMapItem(MapItem_t *i)
 }
 GmEnemy_t MakeMapItem(double x, double y, MapItemEffect_t effect)
 {
-	MapItem_t *ed = nb(MapItem_t);
+	MapItem_t *ed = nb_(MapItem_t);
 
 	ed->Effect = effect;
 	ed->X = x;

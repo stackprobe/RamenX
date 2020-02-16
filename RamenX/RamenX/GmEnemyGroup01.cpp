@@ -173,7 +173,7 @@ GmEnemy_t MakeTama(
 	double rot_h_max
 	)
 {
-	Tama_t *ed = nb(Tama_t);
+	Tama_t *ed = nb_(Tama_t);
 
 	ed->ShooterMaker = shooter_maker;
 	ed->PicResno = pic_resno;
@@ -1014,7 +1014,7 @@ static void ReleaseCube(Cube_t *i)
 }
 GmEnemy_t MakeCube(double x, double y, double rx, double ry, double rx_add, double ry_add, double rx_scale, double ry_scale, int pic_resno, double scale, int hp) // pic_resno: P_*_CUBE を想定
 {
-	Cube_t *ed = nb(Cube_t);
+	Cube_t *ed = nb_(Cube_t);
 
 	S_CubeX3RndSet()->Reset(); // ここで!? パート2
 
@@ -2418,7 +2418,7 @@ static void ReleaseAya(Aya_t *i)
 }
 GmEnemy_t MakeAya(double x, double y, int level)
 {
-	Aya_t *ed = nb(Aya_t);
+	Aya_t *ed = nb_(Aya_t);
 
 	ed->X = x;
 	ed->Y = y;
