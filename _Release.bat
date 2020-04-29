@@ -15,4 +15,4 @@ ren out\Changelog.txt XV—š—ğ.txt
 C:\Factory\SubTools\zip.exe /G out ShirokumaACT
 C:\Factory\Tools\summd5.exe /M out
 
-PAUSE
+IF NOT "%1" == "/-P" PAUSE
