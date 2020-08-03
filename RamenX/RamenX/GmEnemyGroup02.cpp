@@ -364,7 +364,7 @@ static int ProvidenceActor(GmEnemy_t *i, Providence_t *ed)
 }
 static void ProvidenceDrawer(GmEnemy_t *i, Providence_t *ed)
 {
-	error(); // todo
+	error(); // HACK
 }
 static int ProvidenceIsCrashed(GmEnemy_t *i, Providence_t *ed, double x, double y, double w, double h)
 {

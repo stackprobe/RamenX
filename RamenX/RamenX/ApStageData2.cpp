@@ -48,7 +48,7 @@ static void LoadBlock_004(double xPos)
 		e2->ExtraPart.Suica.ForceDir = 1;
 	}
 
-	// todo
+	// HACK
 }
 void ApLoadStage_201(void)
 {

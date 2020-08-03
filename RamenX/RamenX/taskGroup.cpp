@@ -4,7 +4,7 @@ taskGroup_t *CreateTaskGroup(void)
 {
 	taskGroup_t *tg = (taskGroup_t *)memAlloc(sizeof(taskGroup_t));
 
-	tg->List = new autoList<taskInfo_t>(4096); // todo
+	tg->List = new autoList<taskInfo_t>(4096); // HACK
 //	tg->List = new autoList<taskInfo_t>();
 	return tg;
 }

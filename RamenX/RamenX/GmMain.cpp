@@ -107,7 +107,7 @@ static void DrawWall(void)
 		int y = (int)((GmDc.Player.Y / 600.0) * MARGIN_Y);
 		m_range(y, -MARGIN_Y + 1, MARGIN_Y - 1);
 		y += MARGIN_Y;
-		y = 0; // todo
+		y = 0; // HACK
 
 		double a = LFrmCnt / (60.0 * YORUMADE_SEC);
 		m_range(a, 0.0, 1.0);

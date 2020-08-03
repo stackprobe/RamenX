@@ -532,7 +532,7 @@ GmEnemy_t MakeDoll(double x, double y, int level)
 {
 	int hp;
 
-	S_DollLv3RndSet()->Reset(); // todo: ‚±‚±‚Å!?
+	S_DollLv3RndSet()->Reset(); // HACK: ‚±‚±‚Å!?
 
 	switch(level)
 	{
@@ -591,7 +591,7 @@ static int AliceActor(GmEnemy_t *i, Alice_t *ed)
 	{
 		double Y_ADD = 3.0;
 
-		if(400.0 < i->Y && i->Y < 400.0 + Y_ADD * 1.1) // todo: ‚±‚Ì‚“x‚ÅŒˆ‚ß‚é‚Ì!?
+		if(400.0 < i->Y && i->Y < 400.0 + Y_ADD * 1.1) // HACK: ‚±‚Ì‚“x‚ÅŒˆ‚ß‚é‚Ì!?
 		{
 			ed->XAdd = abs(ed->XAdd) * (GmDc.Player.X < i->X ? -1.0 : 1.0);
 
