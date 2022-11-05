@@ -7,8 +7,7 @@ Windows用フリーゲーム 'しろくまACT' の開発環境です。
 ビルド済み配布物
 ----------------
 
-http://cerulean.ccsp.mydns.jp
--> しろくまACT
+https://www.freem.ne.jp/win/game/8480
 
 
 開発環境
